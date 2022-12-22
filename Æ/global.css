@@ -92,108 +92,13 @@
 }
 
 
-.cta {
-    border: none;
-    background: none;
-   
-  }
-  
-  .cta span {
-    padding-bottom: 7px;
-    letter-spacing: 4px;
-    font-size: 24px;
-    padding-right: 15px;
-    text-transform: uppercase;   
-  }
-  
-  .cta svg {
-    transform: translateX(-8px);
-    transition: all 0.3s ease;
-   
-  }
-  
-  .cta:hover svg {
-    transform: translateX(0);
-  }
-  
-  .cta:active svg {
-    transform: scale(0.9);
-  }
-  
-  .hover-underline-animation {
-    position: relative;
-    color: black;
-    padding-bottom: 20px;
-  }
-  
-  .hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color:black;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;  
-  }
-  
-  .cta:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-   
-  
-  .hover-overlay-container {
-      position: relative;
-      float:left;
-       
-  }
- 
-
-  .hover-overlay-container:hover .overlay-image {
-      opacity: 0.3;
-      
-      
-  }
-
-  .hover-overlay-container:hover .overlay-btn-container {
-      opacity: 1;
-  }
-
-  .hover-overlay-container .overlay-image {
-      display: block;
-      opacity: 1;
-      transition: .5s ease;
-      backface-visibility: hidden;
-      
-  }
-
-  .hover-overlay-container .overlay-btn-container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      opacity: 0;
-      transition: .5s ease;
-      text-align: center;
-      transform: translate(-50%, -50%);
-  }
-
-  .hover-overlay-container .overlay-btn-container .overlay-btn {
-      color: #fff;
-      font-size: 16px;
-      padding: 10px 16px;
-      text-decoration: none;
-  }
-
-  #bla{
+  .bla{
     border: 2px solid #c38375;
     color: #717176;
-   margin-top: 45rem;
-   margin-bottom: 5rem ;
-   margin-left: 5rem;
-   margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem ;
+    margin-left: 5rem;
+    margin-right: 5rem;
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem ;
@@ -302,11 +207,14 @@
     right: 0;
     width: 0;
    }
+   .foto{
+    float:left;
+   }
    
    #new{
     border: 2px solid #c38375 ;
-    margin-top: 70rem;
-    margin-bottom: 5rem ;
+    margin-top: 2rem;
+    margin-bottom: 2rem ;
     margin-left: 5rem;
     margin-right: 5rem;
     padding-top: 3rem;
